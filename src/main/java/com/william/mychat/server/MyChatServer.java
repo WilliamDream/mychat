@@ -57,7 +57,6 @@ public class MyChatServer {
 	            		/** 解析WebSocket请求 */
 	            		pipeline.addLast(new WebSocketServerProtocolHandler("/im"));
 	            		pipeline.addLast(new WebSocktHandler());
-            		
                 }
             }); 
             
